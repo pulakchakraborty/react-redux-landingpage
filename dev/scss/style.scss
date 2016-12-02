@@ -1,0 +1,60 @@
+.heading{
+	color:grey;
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+	font-size: x-large;
+	font-weight: bold;
+	font-family: Gill Sans Extrabold, sans-serif;
+}
+
+.data{
+	color: grey;
+	text-align: justify;
+}
+
+.heading-small{
+	color:grey;
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+	font-size: medium;
+	font-weight: bold;
+	font-family: Gill Sans Extrabold, sans-serif;
+}
+
+.advantages-section{
+	background-color: lightgrey;
+	padding: 50px 0px 50px 0px;
+}
+
+.advantages-section-icons{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row-style{
+	padding: 50px 0px 50px 0px;
+}
+
+.container
+{
+    display: table-row;
+}
+
+.tile
+{
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+	vertical-align: middle;
+	padding: 10px 10px 10px 10px;
+}
+
+.heading-small-alt {
+	color: grey;
+    text-align: left;
+    margin: 10px 10px 10px 0px;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Gill Sans Extrabold, sans-serif;
+}
