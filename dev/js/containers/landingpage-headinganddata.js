@@ -41,7 +41,7 @@ class HeadingAndData extends Component{
 	render(){
 		return(
 
-			<div className ="" >
+			<div className ="component-div" >
 				<div>
 					<ul>
 					  <li><a className="active" href="#home" id="nav-logo"><img src="../../../assets/images/logo-connect.svg" alt="logo" className="img-responsive nav-logo-style"/></a></li>
@@ -50,9 +50,8 @@ class HeadingAndData extends Component{
 					  <li className="nav-bar-right hide-button" id="nav-button"><div><button className="btn btn-success btn-xsmall">{this.props.landingPageData.topcontent.buttontext}</button></div></li>
 					</ul>
 				</div>
-				
 				<div className="top-content">
-					<img src={this.props.landingPageData.topcontent.image} alt="bg" className="img-responsive top-content-image"/>
+					<div><img src={this.props.landingPageData.topcontent.image} alt="bg" className="img-responsive top-content-image"/></div>
 					<div className="top-content-data">
 						<div className="top-content-heading">
 							{this.props.landingPageData.topcontent.heading}
@@ -65,6 +64,7 @@ class HeadingAndData extends Component{
 						</div>
 					</div>
 				</div>
+				<div className="content-div">
 				<div className="row row-style">
 					<div className="col-md-2"></div>
 					<div className="col-md-8">
@@ -146,6 +146,8 @@ class HeadingAndData extends Component{
 						</div>
 					</div>
 					<div className="col-md-2"></div>
+				</div>
+					
 				</div>
 			</div>
 
