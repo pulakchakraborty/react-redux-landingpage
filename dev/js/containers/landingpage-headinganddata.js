@@ -30,7 +30,7 @@ class HeadingAndData extends Component{
 			} else {
 			   // console.log('out of view');
 			    //console.log(nav_button.className);
-			    nav_button.className = "nav-bar-right"
+			    nav_button.className = "nav-bar-right fadein-animation"
 
 			}
 		}
