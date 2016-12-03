@@ -8,10 +8,10 @@ class HeadingAndData extends Component{
 	
 
 	componentDidMount() {
-      console.log('Component DID MOUNT!');
+      //console.log('Component DID MOUNT!');
         
         function isScrolledIntoView(el) {
-        	console.log(el);
+        	//console.log(el);
 		    var elemTop = el.getBoundingClientRect().top;
 		    var elemBottom = el.getBoundingClientRect().bottom;
 		    var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
@@ -25,11 +25,11 @@ class HeadingAndData extends Component{
 			var isElementInView = isScrolledIntoView(document.getElementById("top-content-button-id"));
 			var nav_button = document.getElementById("nav-button");
 			if (isElementInView) {
-			    console.log('in view');
+			   // console.log('in view');
 			    nav_button.className = "nav-bar-right hide-button"
 			} else {
-			    console.log('out of view');
-			    console.log(nav_button.className);
+			   // console.log('out of view');
+			    //console.log(nav_button.className);
 			    nav_button.className = "nav-bar-right"
 
 			}

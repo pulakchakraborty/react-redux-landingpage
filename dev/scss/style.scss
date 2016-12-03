@@ -1,4 +1,37 @@
 
+@font-face{
+	font-family: 'AlwynOT-Regular';
+    src: url("../../assets/fonts/AlwynOT-Regular.eot") format("eot"),
+         url("../../assets/fonts/AlwynOT-Regular.woff2") format("woff2"),
+         url("../../assets/fonts/AlwynOT-Regular.woff") format("woff"),
+         url('../../assets/fonts/AlwynOT-Regular.ttf') format("truetype"),
+         url("../../assets/fonts/AlwynOT-Regular.svg#AlwynOT-Regular") format("svg");
+}
+
+@font-face{
+	font-family: 'AlwynOT-Bold';
+    src: url("../../assets/fonts/AlwynOT-Bold.eot") format("eot"),
+         url("../../assets/fonts/AlwynOT-Bold.woff2") format("woff2"),
+         url("../../assets/fonts/AlwynOT-Bold.woff") format("woff"),
+         url('../../assets/fonts/AlwynOT-Bold.ttf') format("truetype"),
+         url("../../assets/fonts/AlwynOT-Bold.svg#AlwynOT-Bold") format("svg");
+}
+
+@font-face{
+	font-family: 'AlwynOT-Light';
+    src: url("../../assets/fonts/AlwynOT-Light.eot") format("eot"),
+         url("../../assets/fonts/AlwynOT-Light.woff") format("woff"),
+         url('../../assets/fonts/AlwynOT-Light.ttf') format("truetype"),
+         url("../../assets/fonts/AlwynOT-Light.svg#AlwynOT-Light") format("svg");
+}
+
+@font-face{
+	font-family: 'AlwynOT-Thin';
+    src: url("../../assets/fonts/AlwynOT-Thin.eot") format("eot"),
+         url("../../assets/fonts/AlwynOT-Thin.woff") format("woff"),
+         url('../../assets/fonts/AlwynOT-Thin.ttf') format("truetype"),
+         url("../../assets/fonts/AlwynOT-Thin.svg#AlwynOT-Thin") format("svg");
+}
 
 .heading{
 	color:grey;
@@ -6,12 +39,13 @@
 	margin: 10px 10px 10px 10px;
 	font-size: x-large;
 	font-weight: bold;
-	font-family: Gill Sans Extrabold, sans-serif;
+	font-family: "Lucida Sans Unicode";
 }
 
 .data{
 	color: grey;
 	text-align: justify;
+	font-family: "Lucida Sans Unicode";
 }
 
 .heading-small{
@@ -20,7 +54,7 @@
 	margin: 10px 10px 10px 10px;
 	font-size: medium;
 	font-weight: bold;
-	font-family: Gill Sans Extrabold, sans-serif;
+	font-family: "Lucida Sans Unicode";
 }
 
 .advantages-section{
@@ -58,7 +92,7 @@
     margin: 10px 10px 10px 0px;
     font-size: medium;
     font-weight: bold;
-    font-family: Gill Sans Extrabold, sans-serif;
+    font-family: "Lucida Sans Unicode";
 }
 
 .top-content-image{
@@ -77,13 +111,14 @@
 	margin: 10px 10px 10px 10px;
 	font-size: 400%;
 	font-weight: bold;
-	font-family: Gill Sans Extrabold, sans-serif;
+	font-family: "Lucida Sans Unicode";
 }
 
 .top-content-caption{
 	text-align: center;
     color: white;
     font-size: 200%;
+    font-family: "Lucida Sans Unicode";
 }
 
 .top-content-button{
