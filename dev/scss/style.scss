@@ -1,3 +1,5 @@
+
+
 .heading{
 	color:grey;
 	text-align: center;
@@ -57,4 +59,98 @@
     font-size: medium;
     font-weight: bold;
     font-family: Gill Sans Extrabold, sans-serif;
+}
+
+.top-content-image{
+	width: 100%;
+}
+
+.top-content-data{
+	position: absolute;
+    top: 62%;
+    right: 25%;
+}
+
+.top-content-heading{
+	color:white;
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+	font-size: 400%;
+	font-weight: bold;
+	font-family: Gill Sans Extrabold, sans-serif;
+}
+
+.top-content-caption{
+	text-align: center;
+    color: white;
+    font-size: 200%;
+}
+
+.top-content-button{
+	text-align: center;
+	padding: 40px 0px 40px 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    text-decoration: none;
+    border-right: 1px solid #E9E9E9;
+    border-left: 1px solid #E9E9E9
+}
+
+
+.active {
+    background-color: lightgrey;
+}
+
+.nav-bar-right{
+	float: right;
+}
+
+#nav-logo{
+	padding: 15px;
+	display: block;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    height: inherit;
+}
+
+.display-button{
+	display: block
+}
+
+.hide-button{
+	display: none;
+}
+
+li div{
+    display: block;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+}
+
+.nav-logo-style{
+	width: 143px;
 }

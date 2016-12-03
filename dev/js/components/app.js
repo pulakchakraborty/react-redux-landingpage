@@ -5,7 +5,7 @@ require('bootstrap-loader');
 
 
 const App = () =>( 
-	<div className ="row">
+	<div className ="">
 		<HeadingAndData/>
 	</div>
 	

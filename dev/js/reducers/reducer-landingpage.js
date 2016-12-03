@@ -4,7 +4,7 @@ export default function(){
 		topcontent:{
 			image :"../../../assets/images/background.jpg",
 			heading:"Simply your best accountant",
-			capttion:"best person match vis just some questions",
+			caption:"best person match via just some questions",
 			buttontext:"GET YOUR MATCH"
 		},
 		rowone:{

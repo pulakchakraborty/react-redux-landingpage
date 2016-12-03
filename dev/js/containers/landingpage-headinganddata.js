@@ -4,10 +4,67 @@ import {connect} from 'react-redux';
 
 
 class HeadingAndData extends Component{
+
+	
+
+	componentDidMount() {
+      console.log('Component DID MOUNT!');
+        
+        function isScrolledIntoView(el) {
+        	console.log(el);
+		    var elemTop = el.getBoundingClientRect().top;
+		    var elemBottom = el.getBoundingClientRect().bottom;
+		    var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+		    return isVisible;
+		}
+
+
+		window.onscroll = function() {hasScrolled()};
+
+		function hasScrolled(){
+			var isElementInView = isScrolledIntoView(document.getElementById("top-content-button-id"));
+			var nav_button = document.getElementById("nav-button");
+			if (isElementInView) {
+			    console.log('in view');
+			    nav_button.className = "nav-bar-right hide-button"
+			} else {
+			    console.log('out of view');
+			    console.log(nav_button.className);
+			    nav_button.className = "nav-bar-right"
+
+			}
+		}
+
+   }
+
+
 	render(){
 		return(
 
-			<div className ="row" >
+			<div className ="" >
+				<div>
+					<ul>
+					  <li><a className="active" href="#home" id="nav-logo"><img src="../../../assets/images/logo-connect.svg" alt="logo" className="img-responsive nav-logo-style"/></a></li>
+					  <li className="nav-bar-right"><a href="#">What is Exact Connect?</a></li>
+					  <li className="nav-bar-right"><a href="#">How it Works</a></li>
+					  <li className="nav-bar-right hide-button" id="nav-button"><div><button className="btn btn-success btn-xsmall">{this.props.landingPageData.topcontent.buttontext}</button></div></li>
+					</ul>
+				</div>
+				
+				<div className="top-content">
+					<img src={this.props.landingPageData.topcontent.image} alt="bg" className="img-responsive top-content-image"/>
+					<div className="top-content-data">
+						<div className="top-content-heading">
+							{this.props.landingPageData.topcontent.heading}
+						</div>
+						<div className="top-content-caption">
+							{this.props.landingPageData.topcontent.caption}
+						</div>
+						<div className="top-content-button">
+							<button className="btn btn-success btn-small" id="top-content-button-id">{this.props.landingPageData.topcontent.buttontext}</button>
+						</div>
+					</div>
+				</div>
 				<div className="row row-style">
 					<div className="col-md-2"></div>
 					<div className="col-md-8">
