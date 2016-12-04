@@ -1,36 +1,36 @@
 
 @font-face{
 	font-family: 'AlwynOT-Regular';
-    src: url("../../assets/fonts/AlwynOT-Regular.eot") format("eot"),
-         url("../../assets/fonts/AlwynOT-Regular.woff2") format("woff2"),
-         url("../../assets/fonts/AlwynOT-Regular.woff") format("woff"),
-         url('../../assets/fonts/AlwynOT-Regular.ttf') format("truetype"),
-         url("../../assets/fonts/AlwynOT-Regular.svg#AlwynOT-Regular") format("svg");
+    src: url("/assets/fonts/AlwynOT-Regular.eot") format("eot"),
+         url("/assets/fonts/AlwynOT-Regular.woff2") format("woff2"),
+         url("/assets/fonts/AlwynOT-Regular.woff") format("woff"),
+         url('/assets/fonts/AlwynOT-Regular.ttf') format("truetype"),
+         url("/assets/fonts/AlwynOT-Regular.svg#AlwynOT-Regular") format("svg");
 }
 
 @font-face{
 	font-family: 'AlwynOT-Bold';
-    src: url("../../assets/fonts/AlwynOT-Bold.eot") format("eot"),
-         url("../../assets/fonts/AlwynOT-Bold.woff2") format("woff2"),
-         url("../../assets/fonts/AlwynOT-Bold.woff") format("woff"),
-         url('../../assets/fonts/AlwynOT-Bold.ttf') format("truetype"),
-         url("../../assets/fonts/AlwynOT-Bold.svg#AlwynOT-Bold") format("svg");
+    src: url("/assets/fonts/AlwynOT-Bold.eot") format("eot"),
+         url("/assets/fonts/AlwynOT-Bold.woff2") format("woff2"),
+         url("/assets/fonts/AlwynOT-Bold.woff") format("woff"),
+         url('/assets/fonts/AlwynOT-Bold.ttf') format("truetype"),
+         url("/assets/fonts/AlwynOT-Bold.svg#AlwynOT-Bold") format("svg");
 }
 
 @font-face{
 	font-family: 'AlwynOT-Light';
-    src: url("../../assets/fonts/AlwynOT-Light.eot") format("eot"),
-         url("../../assets/fonts/AlwynOT-Light.woff") format("woff"),
-         url('../../assets/fonts/AlwynOT-Light.ttf') format("truetype"),
-         url("../../assets/fonts/AlwynOT-Light.svg#AlwynOT-Light") format("svg");
+    src: url("/assets/fonts/AlwynOT-Light.eot") format("eot"),
+         url("/assets/fonts/AlwynOT-Light.woff") format("woff"),
+         url('/assets/fonts/AlwynOT-Light.ttf') format("truetype"),
+         url("/assets/fonts/AlwynOT-Light.svg#AlwynOT-Light") format("svg");
 }
 
 @font-face{
 	font-family: 'AlwynOT-Thin';
-    src: url("../../assets/fonts/AlwynOT-Thin.eot") format("eot"),
-         url("../../assets/fonts/AlwynOT-Thin.woff") format("woff"),
-         url('../../assets/fonts/AlwynOT-Thin.ttf') format("truetype"),
-         url("../../assets/fonts/AlwynOT-Thin.svg#AlwynOT-Thin") format("svg");
+    src: url("/assets/fonts/AlwynOT-Thin.eot") format("eot"),
+         url("/assets/fonts/AlwynOT-Thin.woff") format("woff"),
+         url('/assets/fonts/AlwynOT-Thin.ttf') format("truetype"),
+         url("/assets/fonts/AlwynOT-Thin.svg#AlwynOT-Thin") format("svg");
 }
 
 $font-stack: Lucida Sans Unicode;
