@@ -33,19 +33,21 @@
          url("../../assets/fonts/AlwynOT-Thin.svg#AlwynOT-Thin") format("svg");
 }
 
+$font-stack: Lucida Sans Unicode;
+
 .heading{
 	color:grey;
 	text-align: center;
 	margin: 10px 10px 10px 10px;
 	font-size: x-large;
 	font-weight: bold;
-	font-family: "Lucida Sans Unicode";
+	font-family: $font-stack;
 }
 
 .data{
 	color: grey;
 	text-align: justify;
-	font-family: "Lucida Sans Unicode";
+	font-family: $font-stack;
 }
 
 .heading-small{
@@ -54,7 +56,7 @@
 	margin: 10px 10px 10px 10px;
 	font-size: medium;
 	font-weight: bold;
-	font-family: "Lucida Sans Unicode";
+	font-family: $font-stack;
 }
 
 .advantages-section{
@@ -93,7 +95,7 @@
     margin: 10px 10px 10px 0px;
     font-size: medium;
     font-weight: bold;
-    font-family: "Lucida Sans Unicode";
+    font-family: $font-stack;
 }
 
 .top-content{
@@ -119,14 +121,14 @@
 	margin: 10px 10px 10px 10px;
 	font-size: 400%;
 	font-weight: bold;
-	font-family: "Lucida Sans Unicode";
+	font-family: $font-stack;
 }
 
 .top-content-caption{
 	text-align: center;
     color: white;
     font-size: 200%;
-    font-family: "Lucida Sans Unicode";
+    font-family: $font-stack;
 }
 
 .top-content-button{
@@ -150,15 +152,7 @@ li {
     float: left;
 }
 
-li a {
-    display: block;
-    color: blue;
-    text-align: center;
-    padding: 25px 25px 25px 25px;
-    text-decoration: none;
-    border-right: 1px solid #E9E9E9;
-    border-left: 1px solid #E9E9E9
-}
+
 
 
 .active {
@@ -187,12 +181,6 @@ li a {
 	display: none;
 }
 
-li div{
-    display: block;
-    text-align: center;
-    padding: 15px 15px 15px 15px;
-    text-decoration: none;
-}
 
 .nav-logo-style{
 	width: 143px;
@@ -245,5 +233,27 @@ li div{
     }
     to {
         opacity: 1;
+    }
+}
+
+li{
+    a{
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 25px 25px 25px 25px;
+        text-decoration: none;
+        border-right: 1px solid #E9E9E9;
+        border-left: 1px solid #E9E9E9;
+
+    }
+
+    div{
+
+        display: block;
+        text-align: center;
+        padding: 15px 15px 15px 15px;
+        text-decoration: none;
+
     }
 }

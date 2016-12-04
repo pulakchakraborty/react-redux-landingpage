@@ -26,11 +26,11 @@ module.exports = {
             },
             { 
               test: /\.(jpg|png)$/, 
-              loader: "url-loader?limit=100000" 
+              loader: "url-loader" 
             },
             { 
               test: /\.(jpg|png)$/, 
-              loader: "file-loader?name=/assets/images/[name].[ext]" 
+              loader: "file-loader" 
             },
             { 
               test: /\.(png|woff|woff2|eot|ttf|svg)$/, 
