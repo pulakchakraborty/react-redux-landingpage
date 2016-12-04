@@ -20,26 +20,30 @@ module.exports = {
                 test: /\.scss/,
                 loader: 'style-loader!css-loader!sass-loader'
             },
-          { 
-            test: /\.css$/, 
-            loader: "style-loader!css-loader" 
-          },
-          { 
-            test: /\.(jpg|png)$/, 
-            loader: "url-loader?limit=100000" 
-          },
-          { 
-            test: /\.(jpg|png)$/, 
-            loader: "file-loader?name=/assets/images/[name].[ext]" 
-          },
-         { test: /\.(png|woff|woff2|eot|ttf|svg)$/, 
-            loader: 'url-loader?limit=100000' 
-         },
-         {
-                test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-                loader: 'file-loader',
-         },
-         { test:/bootstrap-sass[\/\\]assets[\/\\]javascripts[\/\\]/, loader: 'imports-loader?jQuery=jquery' }
+            { 
+              test: /\.css$/, 
+              loader: "style-loader!css-loader" 
+            },
+            { 
+              test: /\.(jpg|png)$/, 
+              loader: "url-loader?limit=100000" 
+            },
+            { 
+              test: /\.(jpg|png)$/, 
+              loader: "file-loader?name=/assets/images/[name].[ext]" 
+            },
+            { 
+              test: /\.(png|woff|woff2|eot|ttf|svg)$/, 
+              loader: 'url-loader?limit=100000' 
+            },
+            {
+              test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+              loader: 'file-loader',
+            },
+            { 
+              test:/bootstrap-sass[\/\\]assets[\/\\]javascripts[\/\\]/, 
+              loader: 'imports-loader?jQuery=jquery' 
+            }
         ]
     },
     output: {
