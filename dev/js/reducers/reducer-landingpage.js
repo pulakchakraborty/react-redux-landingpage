@@ -13,7 +13,7 @@ export default function(){
 		},
 		rowtwo:{
 			colone:{
-				icon:"/assets/images/icon-profile.png",
+				icon:"/assets/images/icon-chat-bubble.svg",
 				heading:"Personal and Relevant",
 				data:"Nullam augue ligula, tincidunt sed ultrices eget, consectetur at lacus. Curabitur sodales ultricies pulvinar. Maecenas ut aliquet risus, ut auctor purus."
 			},
