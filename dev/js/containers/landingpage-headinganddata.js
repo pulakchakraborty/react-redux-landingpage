@@ -15,10 +15,10 @@ class HeadingAndData extends Component{
         
         function isScrolledIntoView(el) {
         	//console.log(el);
-		    var elemTop = el.getBoundingClientRect().top;
-		    var elemBottom = el.getBoundingClientRect().bottom;
-		    var topnavHeight = document.getElementById('landingpage-topnav').getBoundingClientRect().bottom;
-		    var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight) && (elemBottom >= parseInt(topnavHeight));
+		    let elemTop = el.getBoundingClientRect().top;
+		    let elemBottom = el.getBoundingClientRect().bottom;
+		    let topnavHeight = document.getElementById('landingpage-topnav').getBoundingClientRect().bottom;
+		    let isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight) && (elemBottom >= parseInt(topnavHeight));
 		    return isVisible;
 		}
 
@@ -26,8 +26,8 @@ class HeadingAndData extends Component{
 		window.onscroll = function() {hasScrolled()};
 
 		function hasScrolled(){
-			var isElementInView = isScrolledIntoView(document.getElementById("top-content-button-id"));
-			var nav_button = document.getElementById("nav-button");
+			let isElementInView = isScrolledIntoView(document.getElementById("top-content-button-id"));
+			let nav_button = document.getElementById("nav-button");
 			if (isElementInView) {
 			   // console.log('in view');
 			    nav_button.className = "nav-bar-right hide-button"
